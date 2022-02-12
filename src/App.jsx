@@ -2,8 +2,8 @@ import "./App.scss";
 const App = () => {
   return (
     <div className="load">
-      adsaqweruijkljrgfjfgfhjgfhjqưertyuikgjhgxfbdnm
-      bvxdrtyuhkjn,mbvbxdfgjk12345234534253245324532
+      adsaqweruijkljrgfjfgfhjgfhjqưertyuikgjhgx6757
+      585567565fbdnmbvxdrtyuhkjn,mbvbxdfgjk12345234534253245324532
     </div>
   );
 };

@@ -25,17 +25,7 @@
   },
   "plugins": ["react", "prettier"],
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "printWidth": 85,
-        "arrowParens": "always",
-        "semi": true,
-        "tabWidth": 2,
-        "endOfLine": "auto",
-        "bracketSameLine": false
-      }
-    ],
+    "prettier/prettier": "error",
     "no-console": "error",
     "no-empty": "error",
     "camelcase": "error"

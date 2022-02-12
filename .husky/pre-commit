@@ -1,5 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
-echo -e "Checking lint is in progress"
+GIT='git config user.name'
+
+echo -e "Checking lint is in progress..."
 yarn lint
 echo -e "Finish checking lint"
+

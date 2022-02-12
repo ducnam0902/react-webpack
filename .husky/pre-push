@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo -e "You are \e[0;32m$(git config user.name)\e[0;0m"
+echo -e "Checking lint is in progress"
+yarn lint
+echo -e "You are push to \e[0;31m$(git rev-parse --abbrev-ref HEAD)\e[0;0m branch"
